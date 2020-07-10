@@ -1,0 +1,7 @@
+*
+!plugins/PluginMetrics/config.yml
+!start.bat
+!start.sh
+!eula.txt
+!server.properties
+!bukkit.yml
