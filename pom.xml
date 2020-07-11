@@ -8,11 +8,15 @@
     <artifactId>spigottemplate</artifactId>
     <name>SpigotTemplate</name>
     <version>1.0-SNAPSHOT</version>
+    <description>A template plugin for spigot</description>
 
     <properties>
         <main.class>com.github.bigibas123.spigottemplate.SpigotTemplate</main.class>
 
-        <minecraft.version>1.16.1</minecraft.version>
+        <minecraft.version.major>1</minecraft.version.major>
+        <minecraft.version.minor>16</minecraft.version.minor>
+        <minecraft.version.patch>1</minecraft.version.patch>
+        <minecraft.version>${minecraft.version.major}.${minecraft.version.minor}.${minecraft.version.patch}</minecraft.version>
         <spigot.version>${minecraft.version}-R0.1-SNAPSHOT</spigot.version>
 
         <maven.compiler.plugin.version>3.8.1</maven.compiler.plugin.version>

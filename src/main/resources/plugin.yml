@@ -1,5 +1,17 @@
 name: ${project.artifactId}
 main: ${main.class}
 version: ${project.version}
+api-version: ${minecraft.version.major}.${minecraft.version.minor}
 database: false
 prefix: ${project.name}
+description: ${project.description}
+
+default-permission: op
+commands:
+  example_command:
+    description: "A command to demonstrate how to implement commands in this template"
+    aliases:
+      - "ec"
+    permission: ${project.artifactId}.example
+    permission-message: "§4You are missing the permission: §b<permission>§4 to execute this command"
+    usage: "/<command>"
